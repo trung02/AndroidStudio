@@ -12,11 +12,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class singin extends AppCompatActivity {
-
-    public List<ModelAccount> createAccount(ModelAccount acc){
-        List<ModelAccount> list = new ArrayList<>();
-        list.add(acc);
+    private List<ModelAccount> list = new ArrayList<>();
+    public List<ModelAccount> getList() {
         return list;
+    }
+
+    public void setList(List<ModelAccount> list) {
+        this.list = list;
     }
 
     @Override
@@ -26,12 +28,9 @@ public class singin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singin);
         btn3 = (Button) findViewById(R.id.button);
-        EditText user = findViewById(R.id.editTextUserName);
-        EditText password = findViewById(R.id.editPass);
-        ModelAccount acc = new ModelAccount();
-        acc.setUsername(user.getText().toString());
-        acc.setPassword(password.getText().toString());
-        createAccount(acc);
+        String user = ((EditText) findViewById(R.id.editTextUserName)).getText().toString();
+        String password =((EditText) findViewById(R.id.editPass)).getText().toString();
+        list.add(new ModelAccount(user,password));
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

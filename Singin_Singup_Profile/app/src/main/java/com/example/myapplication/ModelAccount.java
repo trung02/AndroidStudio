@@ -1,22 +1,30 @@
 package com.example.myapplication;
 
 public class ModelAccount {
-    private String username;
+    private String userName;
     private String password;
 
-    public void setUsername(String username) {
-        this.username = username;
+    public ModelAccount(String userName, String password){
+        this.userName= userName;
+        this.password = password;
+    }
+    public ModelAccount(){
+    }
+
+    public void setUsername(String userName) {
+        this.userName = userName;
     }
 
     public void setPassword(String password) {
         this.password = password;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 
     public String getPassword() {
         return password;
     }
+
 }
