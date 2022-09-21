@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BunBo">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:text="NGUYÊN LIỆU"
+        android:textColor="#17FD07"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="364dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="30dp"
+        android:text="Bắp bò,Nạm bò, Gân bò, Giò heo, Mắm ruốc Huế, Sả, Gừng, Hành tím, tỏi, Bún tươi cọng to, Rau sống, Ớt, sa tế, tiêu, muối, nước mắm, dầu ăn, dấm trắng"
+        android:textColor="#000"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="CÁCH NẤU"
+        android:textColor="#17FD07"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="370dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="30dp"
+        android:text="Bước 1: Cho thịt bò, gân bò và móng giò vào nồi cùng 3 cây sả và gừng. Đổ nước xâm xấp mặt, hầm đến khi thịt và móng giò chín. Sau khi vớt ra lập tức ngâm vào nước lạnh để thịt được chắc, không bị bở."
+        android:textColor="#000"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="367dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="30dp"
+        android:text="Bước 2: Thái thịt thành những lát mỏng, thái gân thành những miếng nhỏ vừa ăn."
+        android:textColor="#000"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="365dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="30dp"
+        android:text="Bước 3: Cho khoảng 1,5 lit nước vào nồi (dùng nước ninh xương hoặc móng giò sẽ cho nước dùng ngon ngọt hơn, có thể tận dụng nước hầm thịt và móng giò ở bước trên), đun đến khi sôi."
+        android:textColor="#000"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="364dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="30dp"
+        android:text="Bước 4: Cho 1 gói gia vị Ajiquick Bún Bò Huế vào khuấy đều. Sau đó cho sả nguyên cây đập dập vào, đun đến khi sôi."
+        android:textColor="#000"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="364dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="30dp"
+        android:text="Bước 5: Xếp bún ra bát. Cho thêm thịt bò, gân bò, móng giò và các loại topping tuỳ chọn như chả cua, giò lụa, tiết luộc… sau đó chan nước dùng. Rắc thêm một chút hành trang trí và thưởng thức kèm với các loại rau sống"
+        android:textColor="#000"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/buttonql"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Quay lại"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
