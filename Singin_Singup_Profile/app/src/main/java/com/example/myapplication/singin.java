@@ -27,9 +27,9 @@ public class singin extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singin);
-        btn3 = (Button) findViewById(R.id.button);
+        btn3 = (Button) findViewById(R.id.registerBnt);
         String user = ((EditText) findViewById(R.id.editTextUserName)).getText().toString();
-        String password =((EditText) findViewById(R.id.editPass)).getText().toString();
+        String password =((EditText) findViewById(R.id.editTextPassWord)).getText().toString();
         list.add(new ModelAccount(user,password));
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override

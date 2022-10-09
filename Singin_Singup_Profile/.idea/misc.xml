@@ -8,9 +8,11 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.257" />
         <entry key="app/src/main/res/drawable/radius_avata.xml" value="0.257" />
         <entry key="app/src/main/res/drawable/vien.xml" value="0.257" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1897644927536232" />
-        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.2515625" />
-        <entry key="app/src/main/res/layout/activity_singin.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/activity_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14210526315789473" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_singin.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/layout_giay.xml" value="0.209375" />
       </map>
     </option>
   </component>
@@ -19,5 +21,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2515625" />
+      </ProjectState>
+    </option>
   </component>
 </project>
