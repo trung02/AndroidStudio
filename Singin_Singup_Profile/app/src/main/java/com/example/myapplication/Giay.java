@@ -1,37 +1,51 @@
 package com.example.myapplication;
 
 public class Giay {
-    private String tenmon;
-    private String mota;
-    private int hinh;
+    private String name;
+    private double price;
+    private String description;
+    private int image;
 
-    public Giay(String tenmon, String mota, int hinh){
-        this.tenmon = tenmon;
-        this.mota = mota;
-        this.hinh = hinh;
+    public Giay() {
     }
 
-    public String getTenmon() {
-        return tenmon;
+    public Giay(String name, double price, int image, String description) {
+        this.name = name;
+        this.price = price;
+        this.image = image;
+        this.description = description;
     }
 
-    public void setTenmon(String tenmon) {
-        this.tenmon = tenmon;
+    public double getPrice() {
+        return price;
     }
 
-    public String getMota() {
-        return mota;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
-    public void setMota(String mota) {
-        this.mota = mota;
+    public String getName() {
+        return name;
     }
 
-    public int getHinh() {
-        return hinh;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setHinh(int hinh) {
-        this.hinh = hinh;
+    public String getDescription() {
+        return description;
     }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
+
 }

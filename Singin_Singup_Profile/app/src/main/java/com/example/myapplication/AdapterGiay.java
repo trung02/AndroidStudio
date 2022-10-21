@@ -44,17 +44,15 @@ public class AdapterGiay extends BaseAdapter {
 
         convertView = inflater.inflate(layout, null);
 
-        Giay monAn = arraylist.get(position);
+        Giay giay = arraylist.get(position);
 
         TextView textV1 = convertView.findViewById(R.id.name);
         TextView textV2 = convertView.findViewById(R.id.mota);
         ImageView imageV = convertView.findViewById(R.id.imageHinh);
 
-        textV1.setText(monAn.getTenmon());
-        textV2.setText(monAn.getMota());
-        imageV.setImageResource(monAn.getHinh());
-
-
+        textV1.setText(giay.getName());
+        textV2.setText("Price: "+giay.getPrice()+" vnd");
+        imageV.setImageResource(giay.getImage());
         return convertView;
     }
 }

@@ -25,14 +25,14 @@
             android:gravity="center"
             android:layout_marginBottom="2dp">
             <EditText
-                android:layout_width="188dp"
+                android:layout_width="187dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="1dp"
                 android:hint="First name"
                 android:paddingLeft="10dp"
                 android:background="@drawable/radius_avata"/>
             <EditText
-                android:layout_width="188dp"
+                android:layout_width="187dp"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="1dp"
                 android:hint="Last name"

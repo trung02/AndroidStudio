@@ -20,7 +20,10 @@
             android:name=".Profile"
             android:exported="false" />
         <activity
-            android:name=".MainActivity_listGiay"
+            android:name=".ListGiay"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
             android:exported="false"/>
         <activity
             android:name=".MainActivity"

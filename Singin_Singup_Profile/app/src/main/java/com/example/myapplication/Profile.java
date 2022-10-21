@@ -1,12 +1,16 @@
 package com.example.myapplication;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class Profile extends AppCompatActivity {
 
@@ -54,7 +58,7 @@ public class Profile extends AppCompatActivity {
         myList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent mh4 = new Intent(Profile.this, MainActivity_listGiay.class);
+                Intent mh4 = new Intent(Profile.this, ListGiay.class);
                 startActivity(mh4);
             }
         });
@@ -66,5 +70,27 @@ public class Profile extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_item, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        switch (item.getItemId()){
+            case R.id.productItem:
+                Intent intent2 = new Intent(Profile.this, ListGiay.class);
+                startActivity(intent2);
+                break;
+            case R.id.profileItem:
+                Intent intent3 = new Intent(Profile.this, Profile.class);
+                startActivity(intent3);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

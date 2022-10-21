@@ -6,8 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity_listGiay">
-
+    tools:context=".Profile">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="30dp"
@@ -84,16 +83,17 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="411dp"
-        android:layout_height="367dp"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
         android:layout_marginTop="368dp"
+        android:layout_marginBottom="75dp"
         android:gravity="center"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/editTextAddress"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="60dp"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
@@ -106,7 +106,7 @@
         <EditText
             android:id="@+id/editTextMail"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="60dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="2dp"
@@ -118,7 +118,7 @@
         <EditText
             android:id="@+id/editTextPhone"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="60dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="2dp"
@@ -130,7 +130,7 @@
         <EditText
             android:id="@+id/editTextSchool"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="60dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="2dp"
@@ -177,7 +177,7 @@
                 android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:backgroundTint="@color/white"
-                android:text="Save profile"
+                android:text="Set status"
                 android:textColor="@color/black" />
             <Button
                 android:id="@+id/logoutBnt"
