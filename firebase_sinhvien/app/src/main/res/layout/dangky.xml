@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8DFCB"
+    tools:context=".DangNhap">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký "
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            >
+        </TextView>
+        <EditText
+            android:layout_marginTop="100dp"
+            android:id="@+id/edtNhapTenNguoiDungdk"
+            android:paddingLeft="20dp"
+            android:layout_width="300dp"
+            android:background="@drawable/edittextdn"
+            android:hint="Nhập tên của bạn"
+            android:layout_height="45dp"/>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/edtNhapTuoidk"
+            android:paddingLeft="20dp"
+            android:layout_width="300dp"
+            android:background="@drawable/edittextdn"
+            android:hint="Nhập tuổi của bạn"
+            android:layout_height="45dp"/>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/edtNhapLopdk"
+            android:paddingLeft="20dp"
+            android:layout_width="300dp"
+            android:background="@drawable/edittextdn"
+            android:hint="Nhập lớp của bạn"
+            android:layout_height="45dp"/>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/edtNhapMaSinhViendk"
+            android:paddingLeft="20dp"
+            android:layout_width="300dp"
+            android:background="@drawable/edittextdn"
+            android:hint="Nhập mã sinh viên của bạn"
+            android:layout_height="45dp"/>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/edtNhapMatKhaudk"
+            android:paddingLeft="20dp"
+            android:layout_width="300dp"
+            android:background="@drawable/edittextdn"
+            android:hint="Nhập mật khẩu"
+            android:password="true"
+            android:layout_height="45dp"/>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/edtNhapLaiMatKhau"
+            android:paddingLeft="20dp"
+            android:layout_width="300dp"
+            android:background="@drawable/edittextdn"
+            android:hint="Nhập lại mật khẩu"
+            android:password="true"
+            android:layout_height="45dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvDaCoTaiKhoandk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã có tài khoản"
+            android:textColor="@color/black"
+            >
+        </TextView>
+        <Button
+            android:id="@+id/btnDangKy"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký"
+            >
+        </Button>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

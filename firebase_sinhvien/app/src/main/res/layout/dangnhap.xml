@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8DFCB"
+    tools:context=".DangNhap">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập sinh viên"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            >
+        </TextView>
+        <EditText
+            android:layout_marginTop="100dp"
+            android:id="@+id/edtNhaptendndn"
+            android:paddingLeft="20dp"
+            android:layout_width="300dp"
+            android:background="@drawable/edittextdn"
+            android:hint="Nhập tên đăng nhâp"
+            android:layout_height="45dp"/>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/edtNhapMatKhaudn"
+            android:paddingLeft="20dp"
+            android:layout_width="300dp"
+            android:background="@drawable/edittextdn"
+            android:hint="Nhập mật khẩu"
+            android:password="true"
+            android:layout_height="45dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/tvChuaCoTaiKhoandn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chưa có tài khoản /"
+                android:textColor="@color/black"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quên mật khẩu"
+                android:textColor="@color/black"
+                >
+            </TextView>
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:id="@+id/btnDangNhapdn"
+            >
+
+        </Button>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

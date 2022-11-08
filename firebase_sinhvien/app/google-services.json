@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537053450898",
+    "project_id": "sinhvien-34a6e",
+    "storage_bucket": "sinhvien-34a6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537053450898:android:2b05745137b09fda3c4c4b",
+        "android_client_info": {
+          "package_name": "com.example.sinhvien_connect_to_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537053450898-si4i36qhkmnu7r1kd4epskk9bmb6jjl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1M-L9Hyua9Ua_GGpziYTZKo3Hl3_R964"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537053450898-si4i36qhkmnu7r1kd4epskk9bmb6jjl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
