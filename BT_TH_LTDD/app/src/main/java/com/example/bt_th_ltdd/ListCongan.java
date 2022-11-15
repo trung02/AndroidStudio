@@ -16,7 +16,10 @@ public class ListCongan extends AppCompatActivity {
         ListView listView = null;
         Adapter adapter;
         List<Congan> conganList = null;
-        conganList.add(new Congan("cong an 1","cap 2","Da Nang",2,R.drawable.bglogin3));
+        conganList.add(new Congan("Cong an 1","Cap trung uy","Da Nang",5,R.drawable.can1));
+        conganList.add(new Congan("Cong an 2","Cap dai uy","Da Nang",5,R.drawable.can2));
+        conganList.add(new Congan("Cong an 3","Cap trung uy","Da Nang",5,R.drawable.can3));
+        conganList.add(new Congan("Cong an 4","Cap dai uy","Da Nang",5,R.drawable.can4));
 
         listView.findViewById(R.id.listview);
         adapter = new Adapter(ListCongan.this,R.layout.layout_congan,conganList);
