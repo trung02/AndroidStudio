@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp">
+        <ImageView
+            android:id="@+id/imageHinh"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@id/cardView"
+        android:text="NAME"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/capbac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@id/cardView"
+        android:text="cap bac"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/noicongtac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/capbac"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/cardView"
+        android:text="noi cong tac"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/sosao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/capbac"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="182dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/noicongtac"
+        android:layout_toRightOf="@id/cardView"
+        android:text="so sao"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+</RelativeLayout>
